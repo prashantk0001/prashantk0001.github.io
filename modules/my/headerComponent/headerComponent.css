@@ -1,0 +1,30 @@
+.away{
+    margin-right: 15px;
+}
+
+
+.away a:hover {
+    color: #c5752a;
+    text-decoration: none;
+}
+/*#9a7e4a*/
+.away a{
+    color: #e1c276;
+}
+
+.profilelink{
+    color: #e1c276;
+}
+
+.profilelink:visited{
+    color: #c5752a;
+    text-decoration: none;
+}
+
+.profilelink:hover {
+    color: #c5752a;
+    text-decoration: none;
+}
+
+
+

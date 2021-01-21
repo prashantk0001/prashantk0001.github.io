@@ -1,7 +1,68 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en" class="customlightbackground">
+    <head>
+        <meta charset="utf-8" />
+        <title>My LWC App</title>
+        <style>
+            
+            @font-face {
+                font-family: SalesforceSans;
+                font-weight: 700;
+                src: url(./resources/fonts/SalesforceSans-Semibold.ttf);
+            }
+            @font-face {
+                font-family: SalesforceSans;
+                font-weight: 800;
+                src: url(./resources/fonts/SalesforceSans-Bold.ttf);
+            }
+            @font-face {
+                font-family: SalesforceSans;
+                font-weight: 500;
+                src: url(./resources/fonts/SalesforceSans-Regular.ttf);
+            }
+
+            @font-face {
+                font-family: OpenSans;
+                font-weight: 800;
+                src: url(./resources/fonts/OpenSans-ExtraBold.ttf);
+            }
+
+            
+
+            body {
+                font-family: SalesforceSans,Arial, Helvetica, sans-serif;
+            }
+
+            .customdarkbackground{
+                background: transparent url(./resources/bg-line-darkbrown.png) repeat center top !important;
+            }
+
+            .customlightbackground{
+                background: transparent url(./resources/bg-line-light.png) repeat center top !important; 
+            }
+
+            .customverylightbackground{
+                background: transparent url(./resources/bg-line-tan.png) repeat center top !important; 
+            }
+
+            .globalmargin{
+                margin-left:14%;
+                margin-right:14%;
+            }
+        </style>
+
+        <!-- Block zoom --> 
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, maximum-scale=1"
+        />
+        <link rel="shortcut icon" href="./resources/favicon.ico" />
+        <link rel="stylesheet" href="./resources/salesforce-lightning-design-system.min.css" />
+
+    </head>
+    <body >
+        
+        <div id="main"></div>
+        
+    </body>
 </html>
